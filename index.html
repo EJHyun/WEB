@@ -3,11 +3,24 @@
 <head>
   <title>Noc_Up</title>
   <meta charset="utf-8">
+  <script src = "brightnessButton.js"></script>
 </head>
 <body>
-<h1><a href="index.html">WEB</a></h1>
+  <h1><a href="index.html">WEB</a></h1>
+  <input type = "button" value = "make it dark" onclick="brightnessHandler(this, 'blue', 'yellow')">
+  <p>
+    night 버튼을 만들고 이걸 클릭했을때 안의 JavaScript를 실행시킬 겁니다.
+    <br>
+    document.querySelector('body') => 이문서에서 body라는 태그를 선택
+    <br>
+    < body > 이게 body태그임
+    <br>
+    태그의 style 속성으로 backgroundColor 값을 black으로 한다
+  </p>
   <ol>
     <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">JavaScript</a></li>
+    <li><a href="3.html">CSS</a></li>
   </ol>
 <p>
   <h1>Hi This is my youtube videos.<br>
@@ -15,7 +28,7 @@
 </P>
 <p>
   <a href="https://www.youtube.com/channel/UCS6XNMp-DCzMlxCtA4dqytg?view_as=subscriber"
-     target="_blank" title="html5 specification"><strong>유튜브 링크 클릭 : Noc_Up Youtube</strong>
+      target="_blank" title="html5 specification">Noc_Up Youtube
   </a>
 </p>
 
